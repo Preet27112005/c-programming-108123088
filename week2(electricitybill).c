@@ -1,18 +1,17 @@
-
 #include<math.h>
 #include<stdio.h>
 int main()
 {
 int x,n;
 
-printf("Please enter no. of units:-");
+printf("Please enter no. of units:");
 scanf("%d",&x);	
 		
-	if(1<x<100)
+	if(x>1&&x<100)
 	n=2;
-	else if(100<=x<250)
+	else if(x>=100&&x<250)
 	n=5;
-	else if(250<=x<500)
+	else if(x>=250&&x<500)
 	n=10;
 	else 
 	n=20;
